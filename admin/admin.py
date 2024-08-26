@@ -28,7 +28,7 @@ def create_vector_store(request_id, documents):
     faiss_vector_store.save_local(index_name=file_name, folder_path=folder_path)
     
     s3_client.upload_file(Filename = folder_path+file_name+".faiss", Bucket=S3_BUCKET_NAME, Key=f"vs_{request_id}.faiss")
-
+    s3_client.upload_file(Filename = folder_path+file_name+".pkl", Bucket=S3_BUCKET_NAME, Key=f"vs_{request_id}.pkl")
     return True
 
 
