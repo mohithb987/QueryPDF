@@ -48,3 +48,9 @@ Only admins have the capability to upload material to ensure security and mainta
 ## AWS Architecture (Initial)
 
 ![Application Architecture](images/GenAI-AWS-arch.png)
+
+## Application Snippets
+
+![User Homepage](images/user_homepage.png)
+![Sample Prompt](images/sample_promt.png)
+![Non Relevant Prompt Sample](images/non_relevant_prompt_sample.png)
