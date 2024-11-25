@@ -1,4 +1,4 @@
-# GenAI-PDFInteraction
+# QueryPDF
 
 The application simplifies working with PDF documents by integrating advanced AI technology. It allows users to interact with PDFs through an intuitive Q&A format, making it easier to access and understand complex information.
 
